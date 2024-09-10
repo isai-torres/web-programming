@@ -21,4 +21,6 @@
   - Advanced
 
   ## The projects in this repository are as follows:
-  - [01-actividad-de-repaso](../01-actividad-de-repaso)
+  - 01-actividad-de-repaso (Beginner)
+  - 02-actividad-etiqueta-div (Beginner)
+  - 03-fundamentos-css (Very Easy)
