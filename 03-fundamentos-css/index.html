@@ -6,10 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--CSS-->
   <link rel="stylesheet" href="style.css">
-  <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
   <!--Titulo-->
   <title>Fundamentos de CSS</title>
 </head>
@@ -20,20 +16,24 @@
 
     <!--Titulo con ID-->
     
-    <h1 id="titulo">Esto es un Titulo</h1>
+    <h1 id="titulo">Atributos id y class en HTML</h1>
 
     <br>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil maxime neque amet deserunt omnis quaerat, cupiditate repudiandae earum incidunt, corrupti magnam. Ipsam nulla nisi ratione mollitia recusandae! Beatae quam animi nisi, voluptatem dolor dicta ipsum est perspiciatis officia id ex velit repudiandae consequuntur provident sunt molestiae eaque consectetur accusantium delectus hic recusandae pariatur temporibus aliquid nam? Culpa est nisi possimus corporis officia, maxime rem dolore, excepturi modi nam mollitia, sint atque nostrum recusandae laboriosam earum aliquam ipsam nesciunt molestias in.</p>
+    <p>En HTML, id y class son atributos que se usan para identificar y aplicar estilos a los elementos, pero tienen diferencias clave. El id se usa para identificar un único elemento en la página. Un valor de id debe ser único, es decir, no puede haber más de un elemento con el mismo id en un documento HTML. El atributo class se utiliza para agrupar varios elementos que comparten un estilo o comportamiento similar. Un valor de class puede aplicarse a varios elementos.</p>
 
+    <br>
+
+    <h1 id="subtitulo">Ventajas <span class="letra-violeta">id</span> y <span class="letra-naranja">class</span>:</h1>
     <br>
 
     <!--Lista con Selector de Clases-->
+
     <ul>
-      <li class="letra-azul"></li>
-      <li class="letra-violeta"></li>
-      <li class="letra-azul"></li>
-      <li class="letra-violeta"></li>
+      <li class="letra-naranja">Reusabilidad: Puedes aplicar la misma class a varios elementos, permitiendo aplicar el mismo estilo o comportamiento a múltiples componentes.</li>
+      <li class="letra-violeta">Identificación única: Permite identificar un solo elemento de manera exclusiva, lo que es útil para manejar un solo componente específico mediante JavaScript o CSS.</li>
+      <li class="letra-naranja">Flexibilidad: Un elemento puede tener varias clases al mismo tiempo, lo que permite una mayor personalización y combinación de estilos.</li>
+      <li class="letra-violeta">Alta especificidad en CSS: Las reglas de estilo aplicadas a un id tienen mayor prioridad que las aplicadas a una class, lo que permite un control más preciso.</li>
     </ul>
 
   </div>

@@ -12,8 +12,7 @@ body {
   background-color: black;
   color: blueviolet;
   height: 100vh;
-  font-family: "Pixelify Sans", sans-serif;;
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -21,10 +20,40 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 25px;
+  font-size: 20px;
 }
 
 ul {
   margin-right: auto;
+}
+
+li {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.3em;
+  color: #09a909;
+}
+
+.letra-violeta {
+  color: blueviolet;
+}
+
+.letra-naranja {
+  color: #df8005;
+}
+
+/* ID's */
+
+#titulo {
+  font-size: 2em;
+  color: red;
+}
+
+#subtitulo {
+  font-size: 2em;
+  color: yellow;
 }
