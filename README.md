@@ -24,3 +24,4 @@
   - 01-actividad-de-repaso (Beginner)
   - 02-actividad-etiqueta-div (Beginner)
   - 03-fundamentos-css (Very Easy)
+  - 04-web-responsiva (Very Easy)
