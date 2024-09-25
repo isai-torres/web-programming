@@ -7,7 +7,7 @@
 </div>
 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/8ef0facd-e208-4ee1-b99c-b917a21628ed" height="500px" width="800px">
+  <img src="https://github.com/user-attachments/assets/8ef0facd-e208-4ee1-b99c-b917a21628ed">
 </div>
 
 <br>
@@ -45,3 +45,9 @@
   - **04-web-responsiva** (Very Easy)
 
   <img src="https://github.com/user-attachments/assets/eac4b5f1-f447-4c90-ae00-3ea27b104a5c" height="200" width="400px">
+
+  <br>
+  <br>
+
+  - **05-flexbox-grid** (Intermediate)
+
