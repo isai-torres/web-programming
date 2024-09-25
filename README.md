@@ -51,3 +51,9 @@
 
   - **05-flexbox-grid** (Intermediate)
 
+  <img src="https://github.com/user-attachments/assets/ca84c51a-57e6-423d-94f4-1d72bb1a17b1" height="200" width="400px">
+
+  <br>
+  <br>
+
+  <img src="https://github.com/user-attachments/assets/9535416f-f35d-496f-93ae-b9950804c212" height="200" width="400px">
