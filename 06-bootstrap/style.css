@@ -9,6 +9,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+  font-family: "Rubik Dirt", system-ui;
+}
+
 /* Navbar */
 .navbar {
   background-color: #157d9c;
@@ -26,12 +30,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 100px 35px;
-  
 }
 
 .hero-description {
@@ -44,7 +43,6 @@ body {
 
 .hero-img {
   border-radius: 8px;
-  /* background-attachment: fixed; */
 }
 
 .hero-button {
@@ -72,6 +70,58 @@ body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.contenedor-grid {
+.contenedor-grid-proyectos {
   gap: 16px;
+}
+
+/* Sección Visión y Misión */
+
+.vision-mision-container {
+  background-image: url(images/satellite-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 25px 35px 100px;
+}
+
+.vision-title {
+  margin: 0 0 50px;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+.columnas-vision {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.contenedor-grid-vision {
+  gap: 16px;
+}
+
+/* Testimonios */
+
+.testimonios-container {
+  margin: 100px 35px 50px;
+}
+
+.testimonio-title {
+  margin: 0 0 50px;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+.contenedor-cards {
+  gap: 16px;
+}
+
+/* LLamado Voluntariado */
+
+.llamado-voluntariado-container {
+  max-width: 800px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
