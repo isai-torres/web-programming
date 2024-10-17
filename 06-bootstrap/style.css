@@ -125,3 +125,31 @@ h2 {
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
+
+/* Footer */
+
+footer {
+  color: white;
+  padding: 100px 35px;
+  background-color: black;
+}
+
+/* Contacto */
+
+.contacto {
+  margin-top: 100px;
+}
+
+.contacto i {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.contacto a {
+  cursor: pointer;
+  color: white;
+}
+
+.contacto a:hover {
+  color: #157d9c;
+}
