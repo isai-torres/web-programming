@@ -14,6 +14,13 @@ h2 {
 }
 
 /* Navbar */
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 .navbar {
   background-color: #157d9c;
 }
@@ -22,10 +29,14 @@ h2 {
   text-decoration: underline white 2px;
 }
 
+.logo {
+  font-size: 1.5em;
+}
+
 /* Sección Hero */
 
 .hero {
-  background-image: url(images/landscape.jpg);
+  background-image: url(images/landscape.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -35,6 +46,7 @@ h2 {
 
 .hero-description {
   max-width: 650px;
+  margin-bottom: 20px;
 }
 
 .hero-description h1 {
@@ -74,10 +86,15 @@ h2 {
   gap: 16px;
 }
 
+.proyecto-img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
 /* Sección Visión y Misión */
 
 .vision-mision-container {
-  background-image: url(images/satellite-background.jpg);
+  background-image: url(images/satellite-background.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
