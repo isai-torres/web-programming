@@ -63,4 +63,4 @@
 
   - **06-Bootstrap** (Intermediate)
 
-  <img src="https://github.com/user-attachments/assets/b07f98be-f751-4a56-ac17-c1f56ce9e33a" height="200" width="400px">
+  <img src="https://github.com/user-attachments/assets/9688aa13-3c28-40e7-9db3-549cbd55b29b" height="200" width="400px">
