@@ -57,3 +57,10 @@
   <br>
 
   <img src="https://github.com/user-attachments/assets/9535416f-f35d-496f-93ae-b9950804c212" height="200" width="400px">
+
+  <br>
+  <br>
+
+  - **06-Bootstrap** (Intermediate)
+
+  <img src="https://github.com/user-attachments/assets/b07f98be-f751-4a56-ac17-c1f56ce9e33a" height="200" width="400px">
