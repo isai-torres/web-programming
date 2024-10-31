@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#game-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Añade espacio adicional si lo deseas */
+}
+
+/* Configuración de #game-board */
+
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 120px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background: linear-gradient(
+    135deg,
+    #e2e2e2 25%,
+    #ffffff 25%,
+    #ffffff 50%,
+    #e2e2e2 50%,
+    #e2e2e2 75%,
+    #ffffff 75%,
+    #ffffff
+  );
+  background-size: 20px 20px; /* Tamaño del patrón de fondo */
+  color: transparent; /* Oculta el contenido inicialmente */
+  border: 2px solid #444;
+  transition: all 0.3s ease; /* Animación suave para el cambio de fondo */
+}
+
+.card.flipped,
+.card.matched {
+  background: white;
+  color: #000;
+  border: 2px solid #ccc;
+}
