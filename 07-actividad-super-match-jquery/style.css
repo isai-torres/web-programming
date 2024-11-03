@@ -3,6 +3,8 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: "Rubik Wet Paint", system-ui;
+  background-color: #eeeeee;
 }
 
 #game-container {
@@ -38,13 +40,13 @@ html, body {
   font-size: 2rem;
   background: linear-gradient(
     135deg,
-    #e2e2e2 25%,
-    #ffffff 25%,
-    #ffffff 50%,
-    #e2e2e2 50%,
-    #e2e2e2 75%,
-    #ffffff 75%,
-    #ffffff
+    #bb15e4 25%,
+    #bb15e4 25%,
+    #0f9aad 50%,
+    #0f9aad 50%,
+    #0fad7e 75%,
+    #0fad7e 75%,
+    #0fad7e
   );
   background-size: 20px 20px; /* Tamaño del patrón de fondo */
   color: transparent; /* Oculta el contenido inicialmente */

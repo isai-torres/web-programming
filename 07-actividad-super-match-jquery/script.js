@@ -52,7 +52,6 @@ $(document).ready(function () {
         completedGames++;
         $("#completed-games").text(`Juegos completados: ${completedGames}`);
         alert("¡Felicidades! Has completado el juego.");
-        initializeGame(); // Esto lo añadí para que empiece el juego cuando se termina el juego
       }
     } else {
       // Usamos un retraso para que el usuario pueda ver la segunda carta antes de ocultarla
