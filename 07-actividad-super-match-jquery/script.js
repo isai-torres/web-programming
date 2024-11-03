@@ -76,3 +76,7 @@ $(document).ready(function () {
 
   initializeGame();
 });
+
+function showStudentName() {
+  alert("Name: Isai L Torres Viera \nStudent#: R00500461");
+}
