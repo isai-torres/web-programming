@@ -248,3 +248,21 @@ footer a:hover {
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .items {
+    min-width: 100px;
+  }
+
+  .item3 a {
+    font-size: 1em;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .item3 a {
+    font-size: .8em;
+    padding: 6px;
+  }
+}
