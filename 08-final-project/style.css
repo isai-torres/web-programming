@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/background-img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.presentation-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+
+}
+
+.title-container {
+  font-family: "Rubik Dirt", system-ui;
+  margin-bottom: 20px;
+}
+
+.description-container {
+  text-align: left;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+a {
+  border: 2px #513b39 outset;
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  border-radius: 4px;
+  background: linear-gradient(#513b39, #3d3c3c);
+}
+
+a:hover {
+  cursor: pointer;
+  background: linear-gradient(#3d3c3c, #513b39);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 450px) {
+  a {
+    font-size: .7em;
+  }
+}

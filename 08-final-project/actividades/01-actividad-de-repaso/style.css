@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 ;
+  background-color: #00bcb5;
+}
+
+/* Main Container */
+
+main {
+  height: 100vh;
+  background-image: url(images/phone-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 16px;
+  font-size: 1em;
+}
+
+.container h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #00bcb5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.item-title {
+  margin: 0 0 15px 0;
+}
+
+.flutter-link img {
+  border-radius: 50%;
+}
+
+.flutter-link img:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+
+/* Footer */
+
+.formulario-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+form input {
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+form textarea {
+  height: 60px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  text-align: center;
+  width: 60px;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bcb5;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}

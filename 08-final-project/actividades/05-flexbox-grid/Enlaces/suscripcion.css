@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #03061c;
+  color: white;
+}
+
+/* Back Button */
+
+.back-button {
+  padding: 10px;
+  background: linear-gradient(#242649, #7a55de);
+  border: outset 2px black;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background: linear-gradient(#7a55de, #242649);
+}
+
+/* Formulario */
+form {
+  background-color: #242649;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 420px;
+  padding: 50px;
+}
+
+form h2 {
+  font-size: 30px;
+  color: #7a55de;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 17px;
+  border: none;
+  margin-bottom: 25px;
+  color: #7a55de;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #03061c;
+}
+
+.button {
+  background-color: #7a55de;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 990px) {
+  body {
+    padding: 30px;
+  }
+
+  form {
+    width: 340px;
+  }
+
+}
