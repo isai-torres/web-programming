@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formas</title>
+</head>
+
+<body>
+    
+    <form class="custom-form">
+        <h1>Payment Form</h1>
+        <fieldset>
+            <legend>Step 1: Your Details</legend>
+            <div class="form-group">
+                <label for="fName">Name</label>
+                <input id="fName" name="fName" type="text" value="" placeholder="First and last name" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" value="" placeholder="example@gmail.com" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="text" value="" placeholder="787 123 4567" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 2: Travel Information</legend>
+            <div class="form-group">
+                <label for="destination">Destination</label>
+                <select id="destination" name="destination">
+                    <option value="Select your destination">Select Your Destination:</option>
+                    <option value="usa">United States</option>
+                    <option value="japan">Japan</option>
+                    <option value="pRico">Puerto Rico</option>
+                    <option value="germany">Germany</option>
+                    <option value="spain">Spain</option>
+                    <option value="itali">Italy</option>
+                    <option value="france">France</option>
+                    <option value="korea">South Korea</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="departure">Date of Departure</label>
+                <input id="departure" name="departure" type="date" value="" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="arrival">Date of Arrival</label>
+                <input id="arrival" name="arrival" type="date" value="" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="passenger">Number of Passengers</label>
+                <input id="passenger" name="passenger" type="number" min="0" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="reason">Reason for Travel</label>
+                <textarea id="reason" name="reason"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 3: Card Details</legend>
+            <div class="card-type">
+                Card Type
+                <div class="icons">
+                    <label>
+                        <img src="icons/visaLogo.png" alt="" width="30" height="20">
+                        visa
+                    </label>
+                    <input name="creditCard" type="radio">
+                    <label>
+                        <img src="icons/amexLogo.png" alt="" width="30" height="20">
+                        Amex
+                    </label>
+                    <input name="creditCard" type="radio">
+                    <label>
+                        <img src="icons/masterCardLogo.png" alt="" width="25" height="20">
+                        Mastercard
+                    </label>
+                    <input name="creditCard2" type="radio">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input id="cardNumber" name="cardNumber" type="text" value="" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="secCode">Security Code</label>
+                <input id="secCode" name="secCode" type="password" maxlength="3" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="expirationDate">Expiration Date</label>
+                <input id="expirationDate" name="expirationDate" type="date" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="nameOnCard">Name on Card</label>
+                <input id="nameOnCard" name="nameOnCard" type="text" value="" placeholder="Exact name as on card" required>
+            </div>
+        </fieldset>
+        <div class="buy"><input type="submit" value="BUY IT!"></div>
+    </form>
+</body>
+</html>

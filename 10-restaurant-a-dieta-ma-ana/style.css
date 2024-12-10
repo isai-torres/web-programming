@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background-with-a-pasta-decoration.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* Header */
+
+header {
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    background: linear-gradient(#5c0505, #e84343);
+    font-size: 26px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 18px 0;  
+}
+
+header li {
+    height: 50px;
+}
+
+header a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: .7em;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li:nth-child(1) {
+    margin-right: auto;
+}
+
+.title {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.menu-button {
+    display: none;
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.sidebar a:hover {
+    background: #5c0505;
+    text-decoration: none;
+}
+
+/* Description Container */
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    font-size: 26px;
+}
+
+.description {
+    max-width: 655px;
+    text-align: center;
+    background-color: #5c0505;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 8px;
+    font-size: .6em;
+    border: inset 3px #5c0505;
+    margin: 0 30px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 30px;
+    text-align: center;
+    background-color: #5c0505;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: .8em;
+    border: inset 3px #5c0505;
+    max-height: 570px;
+}
+
+.information-container h2 {
+    font-size: 2.2em;
+    margin: 0 0 20px 0;
+}
+
+.information-container img {
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #000;
+    margin-top: 80px;
+    height: 300px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    padding: 5px;
+    border: solid 2px #5c0505;
+    color: #fff;
+    background: linear-gradient(#5c0505, #e84343);
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.social-media i {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.social-media a:hover {
+    background: linear-gradient(#e84343, #5c0505);
+    color: #fff;
+}
+
+.Copyright {
+    margin: 20px 0 0 0;
+    font-size: 12px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    header {
+        font-size: 20px;
+    }
+
+    .description-container {
+        font-size: 20px;
+    }
+
+    .social-media i {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        font-size: 15px;
+    }
+
+    header a {
+        font-size: 1em;
+    }
+
+    .description-container {
+        font-size: 18px;
+    }
+
+    .information-container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .social-media i {
+        font-size: 26px;
+    }
+
+    header svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
