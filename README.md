@@ -71,3 +71,41 @@
   - **07-actividad-super-match-jquery** (Advanced)
 
   <img src="https://github.com/user-attachments/assets/26ff8419-b4bc-42f8-8f76-7147bf92be7c" height="200" width="400px">
+
+  <br>
+  <br>
+
+  - **08-ejemplo-formas** (Beginner)
+
+  <img src="https://github.com/user-attachments/assets/46344b8f-1934-4baf-b7a3-e05872ac9994" height="200" width="400px">
+
+  <br>
+  <br>
+
+  - **09-cyber-auto-parts** (Beginner)
+
+  <img src="https://github.com/user-attachments/assets/4fb11bce-f874-41ef-8b11-27073f691372" height="200" width="400px">
+
+  <br>
+  <br>
+
+  <img src="https://github.com/user-attachments/assets/208fc779-13a8-4a2c-b79e-272d415c9dcf" height="200" width="400px">
+
+  <br>
+  <br>
+
+  - **10-restaurant-a-dieta-ma-ana** (Advanced)
+
+  <img src="https://github.com/user-attachments/assets/db13b60d-d2f9-4c9d-a1d7-77045004223e" height="200" width="400px">
+
+  <br>
+  <br>
+
+  <img src="https://github.com/user-attachments/assets/9d9c48cf-c38c-45bc-afb3-2311d344f9fc" height="200" width="400px">
+
+  <br>
+  <br>
+
+  <img src="https://github.com/user-attachments/assets/543ca595-eb9c-469e-baec-9a3b786d7648" height="200" width="400px">
+
+  
