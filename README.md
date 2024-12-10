@@ -77,35 +77,26 @@
 
   - **08-ejemplo-formas** (Beginner)
 
-  <img src="https://github.com/user-attachments/assets/46344b8f-1934-4baf-b7a3-e05872ac9994" height="200" width="400px">
+  <img src="https://github.com/user-attachments/assets/efb4ce1b-1f83-41f7-a574-72b7e1b00937" height="200" width="400px">
 
   <br>
   <br>
 
   - **09-cyber-auto-parts** (Beginner)
 
-  <img src="https://github.com/user-attachments/assets/4fb11bce-f874-41ef-8b11-27073f691372" height="200" width="400px">
-
-  <br>
-  <br>
-
-  <img src="https://github.com/user-attachments/assets/208fc779-13a8-4a2c-b79e-272d415c9dcf" height="200" width="400px">
+  <img src="https://github.com/user-attachments/assets/2593b077-bccd-4de9-b6e6-25c8eee29bf8" height="200" width="400px">
 
   <br>
   <br>
 
   - **10-restaurant-a-dieta-ma-ana** (Advanced)
 
-  <img src="https://github.com/user-attachments/assets/db13b60d-d2f9-4c9d-a1d7-77045004223e" height="200" width="400px">
+  <img src="https://github.com/user-attachments/assets/38296d9f-703e-4bf4-873b-055c16be7ef4" height="200" width="400px">
 
   <br>
   <br>
 
-  <img src="https://github.com/user-attachments/assets/9d9c48cf-c38c-45bc-afb3-2311d344f9fc" height="200" width="400px">
+  <img src="https://github.com/user-attachments/assets/c7733f12-97a0-42d5-a514-ac98bb10fab0" height="200" width="400px">
 
   <br>
   <br>
-
-  <img src="https://github.com/user-attachments/assets/543ca595-eb9c-469e-baec-9a3b786d7648" height="200" width="400px">
-
-  
