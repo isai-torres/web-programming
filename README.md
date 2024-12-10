@@ -64,3 +64,10 @@
   - **06-Bootstrap** (Intermediate)
 
   <img src="https://github.com/user-attachments/assets/9688aa13-3c28-40e7-9db3-549cbd55b29b" height="200" width="400px">
+
+  <br>
+  <br>
+
+  - **07-actividad-super-match-jquery** (Advanced)
+
+  <img src="https://github.com/user-attachments/assets/26ff8419-b4bc-42f8-8f76-7147bf92be7c" height="200" width="400px">
