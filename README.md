@@ -1,5 +1,5 @@
 <div>
-  <h1>COMP3015 Web Program With Databases</h1>
+  <h1>Web Program With Databases</h1>
 </div>
 
 <div>
