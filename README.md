@@ -1,5 +1,5 @@
 <div>
-  <h1>Web Program With Databases</h1>
+  <h1>Web Programming</h1>
 </div>
 
 <div>
@@ -12,7 +12,7 @@
 
 <br>
 
-<p>This repository contains all the projects we created in the Web Programming with Databases class, starting from the basic fundamentals of HTML to more advanced projects. To identify these projects, I have named them with different categories of difficulty.</p>
+<p>This repository contains all the projects we created in the Web Programming class, starting from the basic fundamentals of HTML to more advanced projects. To identify these projects, I have named them with different categories of difficulty.</p>
 
   ## Categories:
   - Very Easy
